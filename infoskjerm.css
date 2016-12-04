@@ -1,0 +1,118 @@
+/* CSS declarations go here */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f2f2f2;
+	font-family: Georgia;
+}
+
+header {
+	height: 100px;
+	background-color: #F53009;
+	text-align: center;
+}
+
+header img {
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	max-height: 80%;
+	max-width: 80%;
+}
+
+h1, h2 {
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+#content {
+	height: 500px;
+	text-align: center;
+	margin-top: 2%;
+}
+
+#content section {
+	display: inline-block;
+	vertical-align: middle;
+	width: 48%;
+	height: 60%;
+}
+
+#eventsToday {
+	border-style: outset;
+	border-width: 10px;
+	border-color: #F53009;
+	background-color: #ffffff;
+	margin-left: 2%;
+	height: 100%;
+}
+
+#eventsFuture {
+	border-style: outset;
+	border-width: 10px;
+	border-color: #F53009;
+	background-color: #ffffff;
+	margin-left: 2%;
+	height: 100%;
+}
+
+.slick-slide {
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.slick-slide p:nth-child(2), p:nth-child(3) {
+	margin-top: 5px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #1C1C1E;
+}
+
+footer img:nth-child(1) {
+	max-width: 50%;
+    max-height: 50%;
+}
+
+footer img:nth-child(2) {
+    position: absolute;
+    bottom: 4%;
+    left: 56%;
+    max-width: 15%;
+    max-height: 25%;
+}
+
+@media screen and (max-width: 1080px) {
+
+	#content section {
+	text-align: center;
+	margin-bottom: 10%;
+	width: 80%;
+	height: 70%;
+	}
+
+	footer img:nth-child(1) {
+	max-width: 90%;
+    max-height: 90%;
+	}
+
+	footer img:nth-child(2) {
+    max-width: 30%;
+    max-height: 50%;
+	}
+
+}
+
+
+
+
+
+
+
